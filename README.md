@@ -2,11 +2,11 @@
 
 **Exploratory transcriptomic analysis of 2D versus 3D culture in colorectal cancer cell-line models**
 
-![Chemokine–receptor panel](figures/chemokine_receptor_heatmap.png)
+![Chemokineâ€“receptor panel](figures/chemokine_receptor_heatmap.png)
 
 ## Research question
 
-> **How does 3D culture alter the transcriptional landscape of colorectal cancer cell-line models compared with conventional 2D culture, with particular emphasis on chemokine–receptor signaling?**
+> **How does 3D culture alter the transcriptional landscape of colorectal cancer cell-line models compared with conventional 2D culture, with particular emphasis on chemokineâ€“receptor signaling?**
 
 ## Why this analysis?
 
@@ -15,7 +15,7 @@ experimental context than conventional 2D culture. This project uses
 public transcriptomic data to examine how the transition from 2D to 3D
 culture affects gene-expression patterns across multiple CRC cell lines.
 
-A focused chemokine–receptor panel was then examined to investigate
+A focused chemokineâ€“receptor panel was then examined to investigate
 whether these signaling-associated genes show consistent or
 cell-line-specific transcriptional responses.
 
@@ -27,7 +27,7 @@ cell-line-specific transcriptional responses.
 | Model | Colorectal cancer cell lines |
 | Cell lines | HCT116, HT29, LS174T, LS513 |
 | Conditions | 2D vs 3D culture |
-| Biological replicates | n = 3 per cell line × condition |
+| Biological replicates | n = 3 per cell line Ã— condition |
 | Final biological samples | 24 |
 | Technical replicates | Collapsed before final DE analysis |
 | Focused panel | 18 chemokine/receptor genes |
@@ -51,7 +51,7 @@ Global 3D vs 2D
      <U+2193>
 Within-cell-line comparisons
      <U+2193>
-18-gene chemokine–receptor panel
+18-gene chemokineâ€“receptor panel
      <U+2193>
 Visualization and biological interpretation
 ```
@@ -91,16 +91,16 @@ of differential expression.
 
 ![Sample correlation](figures/sample_correlation.png)
 
-### 4. Chemokine–receptor signaling
+### 4. Chemokineâ€“receptor signaling
 
 An 18-gene panel was evaluated:
 
-`CXCL9/CXCL10/CXCL11–CXCR3`  
-`CCL3/CCL4/CCL5–CCR5`  
-`CCL2/CCL7/CCL8–CCR2`  
-`CXCL12–CXCR4`  
-`CXCL16–CXCR6`  
-`CX3CL1–CX3CR1`
+`CXCL9/CXCL10/CXCL11â€“CXCR3`  
+`CCL3/CCL4/CCL5â€“CCR5`  
+`CCL2/CCL7/CCL8â€“CCR2`  
+`CXCL12â€“CXCR4`  
+`CXCL16â€“CXCR6`  
+`CX3CL1â€“CX3CR1`
 
 All 18 genes were identifiable in the raw biological count matrix,
 while five remained available after the final DESeq2 expression
@@ -130,11 +130,29 @@ is not uniform across the panel.** CXCL10 and CCL5 showed significant
 global 3D-versus-2D changes under the predefined criteria, while
 cell-line-specific analyses revealed additional differences such as
 strong CXCR4-associated changes in HCT116 and HT29.
+## Key Results
+
+### Chemokineâ€“Receptor Expression Landscape
+
+![Chemokineâ€“Receptor Panel Heatmap](figures/chemokine_receptor_heatmap.png)
+
+### Principal Component Analysis
+
+![PCA](figures/PCA.png)
+
+### Sample Correlation
+
+![Sample Correlation](figures/sample_correlation.png)
+
+### Global 3D vs 2D Differential Expression
+
+![Volcano Plot](figures/volcano_3D_vs_2D.png)
+
 
 ### What does this mean biologically?
 
 The results support the hypothesis that 3D culture can remodel
-transcriptional programs in CRC cell-line models and that chemokine–
+transcriptional programs in CRC cell-line models and that chemokineâ€“
 receptor signaling may contribute to this model-dependent response.
 The findings are exploratory and should be validated in additional
 experimental systems.
