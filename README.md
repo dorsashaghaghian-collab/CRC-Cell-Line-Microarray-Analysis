@@ -1,4 +1,4 @@
-# CRC Cell-Line RNA-seq Analysis
+# # CRC Cell-Line Microarray Analysis
 
 ### Exploratory transcriptomic analysis of colorectal cancer cell-line models using publicly available GEO datasets
 
